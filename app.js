@@ -11,9 +11,9 @@ let firstTimeJoiningMessage = ('Hello, if this is your first time using this gam
 let storyLineId = 0
 let turnNumber = 0
 username = 'josh'
-
+let buttonInput = ''
 //designated area for button imput//
-
+document.getElementById('test').getAttribute('onclick') = buttonInput
 
 
 
