@@ -8,8 +8,11 @@ let gameTitle = 'Josh\'s Game';
 let password = '1234Josh\'s Game'
 let firstTimeJoiningMessage = ('Hello, if this is your first time using this game please choose a unique username, if there is already progress on that account please refresh the page and try again')
 //let username = prompt('Username')
+let storyLineId = 0
+let turnNumber = 0
 username = 'josh'
 
+//designated area for button imput//
 
 
 
@@ -22,11 +25,25 @@ username = 'josh'
 
 
 
+//
+
+//designated area for storyLineId proccesing
+
+
+//storyLineId + (buttonImput * 10 ^ turnNumber) = storyLineId
 
 
 
 
 
+
+
+
+
+
+
+
+//
 
 
 
