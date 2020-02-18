@@ -1,0 +1,31 @@
+body {
+  background: rgb(3, 0, 0);
+  color: #ffffff;
+  font-weight: 300;
+  height: 100vh;
+  margin: 0
+  ;
+  display: internal: ;
+  align-items: normal;
+  justify-content: left;
+  text-align: left;
+  font-family: Helvetica neue, roboto;
+}
+
+img {
+  width: 56px;
+  height: 48px;
+}
+
+h1 {
+  font-weight: 1000;
+  font-style: 26px;
+  margin: 10px;
+  font-size: 50px;
+}
+h2 {
+  font-weight: 1000;
+  font-style: 26px;
+  margin: 10px;
+  font-size: 50px;
+}
