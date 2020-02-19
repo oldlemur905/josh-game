@@ -20,7 +20,7 @@ let buttonInput = ''
 renderText(gameText,'gametext')
 
 function renderText(str, element){
-	document.getElementById(element).innerHTML(str)
+	document.getElementById(element).innerHTML.replace(str)
 }
 
 
