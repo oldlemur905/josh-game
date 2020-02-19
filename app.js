@@ -13,39 +13,15 @@ let turnNumber = 0
 username = 'josh'
 let buttonInput = ''
 //designated area for button imput//
-document.getElementById('test').getAttribute('onclick') = buttonInput
-
-
-
-
-
-
-
-
-
-
-
-//
-
-//designated area for storyLineId proccesing
-
 
 //storyLineId + (buttonImput * 10 ^ turnNumber) = storyLineId
-
-
-
-
-
-
-
-
-
-
-
-
 //
 
+renderText(gameText,'gametext')
 
+function renderText(str, element){
+	window.document.getElementById(element).innerHTML(str)
+}
 
 
 
@@ -66,89 +42,3 @@ document.getElementById('test').getAttribute('onclick') = buttonInput
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-openingText = 
-  username ? `hello ${username} welcome to ${gameTitle}` 
-  : `hello stranger welcome to ${gameTitle}`;
-
-console.log(openingText);
-gameText = new Vue({
-  el: '#gametext',
-  data: {
-    gametext: gameText
-  }
-})
-option1 = new Vue({
-  el: '#option1',
-  data: {
-    option1: option1
-  }
-})
-option2 = new Vue({
-  el: '#option2',
-  data: {
-    option2: option2
-  }
-})
-option3 = new Vue({
-  el: '#option3',
-  data: {
-    option3: option3
-  }
-})
-option4 = new Vue({
-  el: '#option4',
-  data: {
-    option4: option4
-  }
-})
-var response = new Vue({
-  el: '#myInput',
-  data: {
-    myInput: response
-  }
-})
