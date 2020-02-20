@@ -17,14 +17,26 @@ let buttonInput = ''
 //storyLineId + (buttonImput * 10 ^ turnNumber) = storyLineId
 //
 
-renderText(gameText,'gametext')
+// renderText(gameText,'gametext')
 
 function renderText(str, element){
 	document.getElementById(element).innerHTML.replace(str)
 }
 
+var tid = setInterval(mycode, 1000);
+function mycode() {
+	clockDisplay();
+  // do some stuff...
+}
+function abortTimer() { // to be called when you want to stop the timer
+  clearInterval(tid);
+}
+const time = 0;
+function clockDisplay(){
+	time += 1;
+	renderText(time, 'gametext')
 
-
+}
 
 
 
