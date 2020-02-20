@@ -31,7 +31,7 @@ function mycode() {
 function abortTimer() { // to be called when you want to stop the timer
   clearInterval(tid);
 }
-const time = 0;
+var time = 0;
 function clockDisplay(){
 	time += 1;
 	renderText(time, 'gametext')
