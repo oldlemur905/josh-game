@@ -19,20 +19,20 @@ let buttonInput = ''
 
 // renderText(gameText,'gametext')
 
-function renderText(str, element){
+function renderText(str, element) {
 	document.getElementById(element).innerHTML.replace(str)
 }
 
 var tid = setInterval(mycode, 1000);
 function mycode() {
 	clockDisplay();
-  // do some stuff...
+	// do some stuff...
 }
 function abortTimer() { // to be called when you want to stop the timer
-  clearInterval(tid);
+	clearInterval(tid);
 }
 var time = 0;
-function clockDisplay(){
+function timerBar() {
 	time += 1;
 	renderText(time, 'gametext')
 
@@ -40,7 +40,7 @@ function clockDisplay(){
 
 
 
-
+renderText(option1, 'option1')
 
 
 
