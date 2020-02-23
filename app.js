@@ -1,7 +1,7 @@
-let option1 = 'check if you are the sharpest tool in the shed'
-let option2 = 'contemplate your position in life (looser or rockstar)'
-let option3 = 'go for a walk'
-let option4 = 'wait'
+let option1 = '(1) check if you are the sharpest tool in the shed'
+let option2 = '(2) contemplate your position in life (looser or rockstar)'
+let option3 = '(3) go for a walk'
+let option4 = '(4) wait'
 let gameText = 'sample text - sombody once told you the world was gonna roll you'
 let openingText = '';
 let gameTitle = 'Josh\'s Game';
