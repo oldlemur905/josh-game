@@ -29,28 +29,49 @@ const gameState = {
 
 const gameSteps = {
   step0: {
-    text: 'this is step 0',
+    text: 'You wake up with a start the moon shines just bright enough for you to know that you are outside, but not enough to reveal your surroundings',
     options: {
-      option1: { text: '1: Option 1', target: 'step1' },
-      option2: { text: '2: Option 2', target: 'step1' },
-      option3: { text: '3: Option 3', target: 'step1' },
-      option4: { text: '4: Option 4', target: 'step1' }
+      option1: { text: '1: look around', target: 'step1' },
+      option2: { text: '2: Option 2', target: 'step2' },
+      option3: { text: '3: Option 3', target: 'step3' },
+      option4: { text: '4: Option 4', target: 'step4' }
     }
   },
   step1: {
+    text: 'this is step 1',
+    options: {
+      option1: { text: '1: Option 1', target: 'step11' },
+      option2: { text: '2: Option 2', target: 'step12' },
+      option3: { text: '3: Option 3', target: 'step13' },
+      option4: { text: '4: Option 4', target: 'step14' }
+    }
+  } step2: {
     text: 'this is step 1',
     options: {
       option1: { text: '1: Option 1', target: 'step2' },
       option2: { text: '2: Option 2', target: 'step2' },
       option3: { text: '3: Option 3', target: 'step2' },
       option4: { text: '4: Option 4', target: 'step2' }
-    }
-  }
-};
+    } step3: {
+      text: 'this is step 1',
+      options: {
+        option1: { text: '1: Option 1', target: 'step2' },
+        option2: { text: '2: Option 2', target: 'step2' },
+        option3: { text: '3: Option 3', target: 'step2' },
+        option4: { text: '4: Option 4', target: 'step2' }
+      } step4: {
+        text: 'this is step 1',
+        options: {
+          option1: { text: '1: Option 1', target: 'step2' },
+          option2: { text: '2: Option 2', target: 'step2' },
+          option3: { text: '3: Option 3', target: 'step2' },
+          option4: { text: '4: Option 4', target: 'step2' }
+        }
+      }
 
 renderText(gameSteps.step0.text, 'gametext');
-renderText(gameSteps.step0.options.option1.text, 'option1');
-renderText(gameSteps.step0.options.option2.text, 'option2');
+    renderText(gameSteps.step0.options.option1.text, 'option1');
+  renderText(gameSteps.step0.options.option2.text, 'option2');
 renderText(gameSteps.step0.options.option3.text, 'option3');
 renderText(gameSteps.step0.options.option4.text, 'option4');
 
